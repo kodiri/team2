@@ -13,6 +13,7 @@ class Content extends React.Component {
                             src={require('/Users/vincentman/Desktop/the-cerulean-project/src/images/icons/javascript.svg')}
                             alt='js'
                         />
+                        <button className='home-button'>JavaScript</button>
                     </div>
                     <div className='content-item'>
                          <img 
@@ -20,6 +21,7 @@ class Content extends React.Component {
                             src={require('/Users/vincentman/Desktop/the-cerulean-project/src/images/icons/react.svg')}
                             alt='react'
                         />
+                        <button className='home-button'>React</button>
                     </div>
                     <div className='content-item'>
                         <img 
@@ -27,6 +29,7 @@ class Content extends React.Component {
                             src={require('/Users/vincentman/Desktop/the-cerulean-project/src/images/icons/css3.svg')}
                             alt='css'
                         />
+                        <button className='css'>CSS</button>
                     </div>
                 </div>  
              </div>

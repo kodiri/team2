@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../components/navbar/navbar';
 import Content from '../../components/content/content';
 import './home.scss';
+import Footer from '../../components/Footer/footer.js';
 
 
 class Home extends React.Component {
@@ -11,6 +12,7 @@ class Home extends React.Component {
             <div>
                 <Navbar />
                 <Content />
+                <Footer />
             </div>
         )
     }
