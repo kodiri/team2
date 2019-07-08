@@ -1,0 +1,16 @@
+.content {
+    &-container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.item {
+    flex-direction: column;
+
+}
+
+.image-topic {
+    margin: 100px 50px;
+    width: 300px;
+} 
