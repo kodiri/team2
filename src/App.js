@@ -1,7 +1,8 @@
 import React from 'react';
 import { HashRouter as Router, Route } from 'react-router-dom';
 import './App.css';
-import Home from '/Users/vincentman/Desktop/the-cerulean-project/src/pages/home/home.js';
+import Home from './pages/home/home.js';
+import JavaScript from './pages/javascript/javascript';
 
 class App extends React.Component {
 
@@ -11,6 +12,7 @@ class App extends React.Component {
         <Router>
             <div>
               <Route exact path='/' component={Home} />
+              <Route exact path='/javascript' component={JavaScript} />
             </div>
         </Router>
       </>
