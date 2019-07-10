@@ -8,17 +8,20 @@ import MeetUp from './links-icons/MeetUp.png';
 import './footer.scss';
 
 export default class Footer extends React.Component {
+
     render() {
-        return(
-            <div className='footer'>
+        return (
+            <div>
+                <footer id='footer' className='footer'>
                 <div className='container'>
-                <div className='item'><img src={GitHub}></img>GitHub</div>
-                <div className='item'><img src={Facebook}/>Facebook</div>
-                <div className='item'><img src={Instagram}/>Instagram</div>
-                <div className='item'><img src={Kodiri}/>Kodiri</div>
-                <div className='item'><img src={MeetUp}/>MeetUp</div>   
+                    <div className='item'><img src={GitHub}></img>GitHub</div>
+                    <div className='item'><img src={Facebook}/>Facebook</div>
+                    <div className='item'><img src={Instagram}/>Instagram</div>
+                    <div className='item'><img src={Kodiri}/>Kodiri</div>
+                    <div className='item'><img src={MeetUp}/>MeetUp</div>   
                 </div>
+                </footer>
             </div>
-        )
+        );
     }
 }

@@ -9,7 +9,7 @@ class Content extends React.Component {
                 <div className='content-container'>
                     <div className='content-item'>
                         <img 
-                            className='image-topic'
+                            className='image-topic content-item-js'
                             src={require('/Users/vincentman/Desktop/the-cerulean-project/src/images/icons/javascript.svg')}
                             alt='js'
                         />
@@ -17,7 +17,7 @@ class Content extends React.Component {
                     </div>
                     <div className='content-item'>
                          <img 
-                            className='image-topic'
+                            className='image-topic content-item-react'
                             src={require('/Users/vincentman/Desktop/the-cerulean-project/src/images/icons/react.svg')}
                             alt='react'
                         />
@@ -25,12 +25,13 @@ class Content extends React.Component {
                     </div>
                     <div className='content-item'>
                         <img 
-                            className='image-topic'
+                            className='image-topic content-item-css'
                             src={require('/Users/vincentman/Desktop/the-cerulean-project/src/images/icons/css3.svg')}
                             alt='css'
                         />
-                        <button className='css'>CSS</button>
+                        <button className='home-button'>CSS</button>
                     </div>
+                    
                 </div>  
              </div>
         )

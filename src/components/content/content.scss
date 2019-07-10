@@ -1,12 +1,16 @@
 .content {
     &-container {
-        display: flex;
         justify-content: center;
+        @media (min-width: 768px) {
+            display: flex;
+        }
     }
 }
 
-.item {
-    flex-direction: column;
+.content-item {
+    display: display;
+    flex-direction: row;
+
 
 }
 
@@ -14,3 +18,16 @@
     margin: 100px 50px;
     width: 300px;
 } 
+
+
+.home-button {
+    color: #ffffff;;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: black;
+    outline: none;
+    margin-left: 150px;
+}
