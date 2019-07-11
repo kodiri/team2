@@ -9,30 +9,43 @@ class Content extends React.Component {
             <div className='content'>
                 <div className='content-container'>
                     <div className='content-item'>
-            
-                        <button className='home-button'></button>
+                        <div className="content-item-javascript">
+                            <img
+                            className='image-topic content-item-javascript-img'
+                            src={require('../../images/icons/javascript.png')}
+                            alt='javascript'
+                        /></div>
+                        <button className='home-button'>
+                            <Link to='/javascript'>
+                            JavaScript 
+                            </Link>
+                            </button>
                     </div>
                     <div className='content-item'>
-                         <img 
-                            className='image-topic content-item-react'
-                            src={require('/Users/vincentman/Desktop/the-cerulean-project/src/images/icons/react.svg')}
+                        <div className="content-item-react"><img
+                            className='image-topic content-item-react-img'
+                            src={require('../../images/icons/react.png')}
                             alt='react'
-                        />
-                        <button className='home-button'>React</button>
+                        /></div>
+                        <button className='home-button'>
+                            <Link to='/react'>React</Link>
+                        </button>
                     </div>
                     <div className='content-item'>
-                        <img 
-                            className='image-topic content-item-css'
-                            src={require('/Users/vincentman/Desktop/the-cerulean-project/src/images/icons/css3.svg')}
+                        <div className="content-item-css"><img
+                            className='image-topic content-item-css-img'
+                            src={require('../../images/icons/css.png')}
                             alt='css'
-                        />
-                        <button className='home-button'>CSS</button>
+                        /></div>
+                        <button className='home-button'>
+                            <Link to='/css'>CSS</Link>
+                        </button>
                     </div>
-                    
-                </div>  
-             </div>
+
+                </div>
+            </div>
         )
-        
+
     }
 }
 
