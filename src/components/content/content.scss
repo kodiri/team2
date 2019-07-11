@@ -10,13 +10,14 @@
 .content-item {
     display: display;
     flex-direction: row;
+}
 
-
+.content-item-react-img, .content-item-css-img  {
+    width: 300px;
 }
 
 .image-topic {
     margin: 100px 50px;
-    width: 300px;
 } 
 
 
