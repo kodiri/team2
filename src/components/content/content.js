@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './content.scss';
 
 class Content extends React.Component {
@@ -8,12 +9,8 @@ class Content extends React.Component {
             <div className='content'>
                 <div className='content-container'>
                     <div className='content-item'>
-                        <img 
-                            className='image-topic content-item-js'
-                            src={require('/Users/vincentman/Desktop/the-cerulean-project/src/images/icons/javascript.svg')}
-                            alt='js'
-                        />
-                        <button className='home-button'>JavaScript</button>
+            
+                        <button className='home-button'></button>
                     </div>
                     <div className='content-item'>
                          <img 
